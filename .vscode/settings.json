@@ -1,75 +1,65 @@
 {
   // <-------------- UI Appearance & Layout -------------->
-
-  "workbench.colorTheme": "Aura Dracula Spirit (Soft)",           // Color theme
-  "workbench.iconTheme": "material-icon-theme",                   // File icons
-  "material-icon-theme.hidesExplorerArrows": true,                // Hide folder arrows
-  "workbench.activityBar.location": "default",                     // Hide activity bar
-  "workbench.sideBar.location": "right",                          // Sidebar on right
-  "workbench.statusBar.visible": false,                           // Hide status bar
-  "workbench.startupEditor": "none",                              // No startup editor
-  "workbench.tips.enabled": false,                                // Disable tips
-  "window.zoomLevel": 1,                                          // UI zoom level
-  "window.customTitleBarVisibility": "never",                     // Native title bar only
-  "window.titleBarStyle": "native",                               // Native title bar style
-
+  "workbench.colorTheme": "Aura Dracula Spirit (Soft)", // Color theme
+  "workbench.iconTheme": "material-icon-theme", // File icons
+  "material-icon-theme.hidesExplorerArrows": true, // Hide folder arrows
+  "workbench.activityBar.location": "default", // Hide activity bar
+  "workbench.sideBar.location": "right", // Sidebar on right
+  "workbench.statusBar.visible": false, // Hide status bar
+  "workbench.startupEditor": "none", // No startup editor
+  "workbench.tips.enabled": false, // Disable tips
+  "window.zoomLevel": 1, // UI zoom level
+  "window.customTitleBarVisibility": "never", // Native title bar only
+  "window.titleBarStyle": "native", // Native title bar style
   // <-------------- Explorer Settings -------------->
-
-  "explorer.compactFolders": false,                               // No compact folders
-  "explorer.confirmDragAndDrop": true,                            // Confirm drag & drop
-  "explorer.confirmDelete": true,                                 // Confirm delete
-  "explorer.decorations.badges": true,                            // Show explorer badges
-  "git.decorations.enabled": true,                                // Show Git decorations
-
+  "explorer.compactFolders": false, // No compact folders
+  "explorer.confirmDragAndDrop": true, // Confirm drag & drop
+  "explorer.confirmDelete": true, // Confirm delete
+  "explorer.decorations.badges": true, // Show explorer badges
+  "git.decorations.enabled": true, // Show Git decorations
   // <-------------- Editor Behavior -------------->
-
-  "workbench.editor.showTabs": "single",                          // Show single tab only
-  "editor.minimap.enabled": false,                                // Disable minimap
-  "breadcrumbs.enabled": false,                                   // Disable breadcrumbs
-  "editor.stickyScroll.enabled": false,                           // Disable sticky headers
-  "editor.cursorBlinking": "blink",                               // Blinking cursor
-  "editor.cursorStyle": "line",                                   // Cursor as vertical line
-  "editor.lineNumbers": "on",                                     // Show line numbers
-  "editor.tabSize": 2,                                            // Tab size
-  "editor.detectIndentation": false,                              // Do not auto-detect indent
-  "editor.showFoldingControls": "always",                         // Always show folding arrows
-  "editor.guides.indentation": true,                              // Show indent guides
-  "editor.renderWhitespace": "none",                              // Don't show whitespace
-  "editor.renderLineHighlight": "all",                            // Highlight current line
-  "editor.occurrencesHighlight": "singleFile",                    // Highlight matches in file
-  "editor.selectionHighlight": true,                              // Highlight selections
-  "editor.scrollbar.horizontal": "auto",                          // Horizontal scrollbar
-  "editor.scrollbar.vertical": "auto",                            // Vertical scrollbar
-  "editor.scrollbar.horizontalScrollbarSize": 8,                  // Horizontal scrollbar size
-  "editor.scrollbar.verticalScrollbarSize": 8,                    // Vertical scrollbar size
-  "editor.overviewRulerBorder": false,                            // No border on ruler
-  "editor.hideCursorInOverviewRuler": true,                       // Hide cursor in overview
-
+  "workbench.editor.showTabs": "single", // Show single tab only
+  "editor.minimap.enabled": false, // Disable minimap
+  "breadcrumbs.enabled": false, // Disable breadcrumbs
+  "editor.stickyScroll.enabled": false, // Disable sticky headers
+  "editor.cursorBlinking": "blink", // Blinking cursor
+  "editor.cursorStyle": "line", // Cursor as vertical line
+  "editor.lineNumbers": "on", // Show line numbers
+  "editor.tabSize": 2, // Tab size
+  "editor.detectIndentation": false, // Do not auto-detect indent
+  "editor.showFoldingControls": "always", // Always show folding arrows
+  "editor.guides.indentation": true, // Show indent guides
+  "editor.renderWhitespace": "none", // Don't show whitespace
+  "editor.renderLineHighlight": "all", // Highlight current line
+  "editor.occurrencesHighlight": "singleFile", // Highlight matches in file
+  "editor.selectionHighlight": true, // Highlight selections
+  "editor.scrollbar.horizontal": "auto", // Horizontal scrollbar
+  "editor.scrollbar.vertical": "auto", // Vertical scrollbar
+  "editor.scrollbar.horizontalScrollbarSize": 8, // Horizontal scrollbar size
+  "editor.scrollbar.verticalScrollbarSize": 8, // Vertical scrollbar size
+  "editor.overviewRulerBorder": false, // No border on ruler
+  "editor.hideCursorInOverviewRuler": true, // Hide cursor in overview
   // <-------------- Editor Functionality -------------->
-
   "editor.quickSuggestions": {
     "other": "on"
   },
-  "editor.suggestOnTriggerCharacters": true,                      // Show suggestions when typing
-  "editor.tabCompletion": "on",                                   // Enable tab completion
-  "editor.snippetSuggestions": "top",                             // Snippets appear at top
-  "emmet.triggerExpansionOnTab": true,                            // Emmet on tab
-  "editor.codeLens": false,                                       // Disable CodeLens
-  "editor.links": true,                                           // Enable clickable links
-  "editor.matchBrackets": "always",                               // Always highlight matching brackets
-  "editor.parameterHints.enabled": true,                          // Show parameter hints
-  "editor.lightbulb.enabled": "on",                               // Show quick fix bulb
-  "editor.hover.enabled": true,                                   // Show hover tooltips
-
+  "editor.formatOnSave": true, // Automatically format on save
+  "editor.suggestOnTriggerCharacters": true, // Show suggestions when typing
+  "editor.tabCompletion": "on", // Enable tab completion
+  "editor.snippetSuggestions": "top", // Snippets appear at top
+  "emmet.triggerExpansionOnTab": true, // Emmet on tab
+  "editor.codeLens": false, // Disable CodeLens
+  "editor.links": true, // Enable clickable links
+  "editor.matchBrackets": "always", // Always highlight matching brackets
+  "editor.parameterHints.enabled": true, // Show parameter hints
+  "editor.lightbulb.enabled": "on", // Show quick fix bulb
+  "editor.hover.enabled": true, // Show hover tooltips
   // <-------------- Editor Fonts & Styling -------------->
-
-  "editor.fontFamily": "JetBrains Mono",                          // Editor font
-  "editor.fontSize": 14,                                          // Font size
-  "editor.fontLigatures": false,                                  // Disable ligatures
-  "editor.lineHeight": 2.5,                                       // Line height
-
+  "editor.fontFamily": "JetBrains Mono", // Editor font
+  "editor.fontSize": 14, // Font size
+  "editor.fontLigatures": false, // Disable ligatures
+  "editor.lineHeight": 2.5, // Line height
   // <-------------- Token & Theme Customization -------------->
-
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
@@ -87,19 +77,13 @@
       "sideBar.background": "#191521"
     }
   },
-
   // <-------------- File Handling & Auto Save -------------->
-
-  "files.trimTrailingWhitespace": true,                           // Remove trailing spaces
-  "files.insertFinalNewline": true,                               // Add newline at EOF
-  "files.autoSave": "afterDelay",                                 // Auto-save after delay
-
+  "files.trimTrailingWhitespace": true, // Remove trailing spaces
+  "files.insertFinalNewline": true, // Add newline at EOF
+  "files.autoSave": "afterDelay", // Auto-save after delay
   // <-------------- Version Control -------------->
-
-  "scm.diffDecorations": "all",                                   // Show all Git diff markers
-
+  "scm.diffDecorations": "all", // Show all Git diff markers
   // <-------------- Custom UI Styling (extension required) -------------->
-
   "custom-ui-style.electron": {
     "titleBarStyle": "hiddenInset",
     "trafficLightPosition": {
@@ -129,5 +113,5 @@
     ".title .monaco-icon-label.file-icon": "margin: 0 60px",
     ".monaco-editor .cursors-layer .cursor": "background-image: linear-gradient(135deg, #ffaffc 10%, #DA70D6 100%)"
   },
-  "custom-ui-style.font.sansSerif": "JetBrains Mono",             // Font override for custom UI
+  "custom-ui-style.font.sansSerif": "JetBrains Mono", // Font override for custom UI
 }
