@@ -54,10 +54,12 @@ A sneak peek at the final setup 👇
 
 ---
 
-## 🙌 Feedback & Contributions
+## 🎥 Inspiration & Source
 
-Found a bug or want to suggest a tweak?  
-Feel free to open an issue or fork this repo and make it your own.
+This setup was originally inspired by [this YouTube video](https://www.youtube.com/watch?v=VmFOsK7IhI4).  
+I adapted and customized it to better match my workflow and preferences.
+
+[![Watch on YouTube](https://i.ytimg.com/vi/VmFOsK7IhI4/maxresdefault.jpg)](https://www.youtube.com/watch?v=VmFOsK7IhI4)
 
 ---
 
