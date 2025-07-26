@@ -1,0 +1,16 @@
+// Place your key bindings in this file to override the defaults
+[
+  // Commonly used and productivity shortcuts:
+  // Ctrl+B         → Toggle Side Bar
+  // Ctrl+P         → Quick Open (Go to File)
+  // Ctrl+Shift+P   → Command Palette
+  // Ctrl+Alt+B     → GitHub Copilot Chat (default)
+  // Ctrl+F1        → Toggle Activity Bar (custom shortcut below)
+  // Ctrl+Tab       → Switch between open files
+  // Ctrl+J         → Toggle Bottom Panel (Terminal, Output, Problems)
+  // Ctrl+K Ctrl+W  → Close all open editors
+  {
+  "key": "ctrl+f1",
+  "command": "workbench.action.toggleActivityBarVisibility"
+  }
+]
