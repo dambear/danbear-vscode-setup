@@ -1,6 +1,6 @@
 {
   // <-------------- UI Appearance & Layout -------------->
-  "workbench.colorTheme": "Aura Dracula Spirit (Soft)", // Color theme
+  "workbench.colorTheme": "Default Dark Modern", // Color theme
   "workbench.iconTheme": "material-icon-theme", // File icons
   "material-icon-theme.hidesExplorerArrows": true, // Hide folder arrows
   "workbench.activityBar.location": "default", // Hide activity bar
@@ -20,7 +20,7 @@
   // <-------------- Editor Behavior -------------->
   "workbench.editor.showTabs": "single", // Show single tab only
   "editor.minimap.enabled": false, // Disable minimap
-  "breadcrumbs.enabled": false, // Disable breadcrumbs
+  "breadcrumbs.enabled": true, // Disable breadcrumbs
   "editor.stickyScroll.enabled": false, // Disable sticky headers
   "editor.cursorBlinking": "blink", // Blinking cursor
   "editor.cursorStyle": "line", // Cursor as vertical line
@@ -53,7 +53,7 @@
   "editor.matchBrackets": "always", // Always highlight matching brackets
   "editor.parameterHints.enabled": true, // Show parameter hints
   "editor.lightbulb.enabled": "on", // Show quick fix bulb
-  "editor.hover.enabled": true, // Show hover tooltips
+  "editor.hover.enabled": "on", // Show hover tooltips
   // <-------------- Editor Fonts & Styling -------------->
   "editor.fontFamily": "JetBrains Mono", // Editor font
   "editor.fontSize": 14, // Font size
