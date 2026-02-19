@@ -88,6 +88,7 @@
   "files.trimTrailingWhitespace": true, // Remove trailing spaces
   "files.insertFinalNewline": true, // Add newline at EOF
   "files.autoSave": "afterDelay", // Auto-save after delay
+  "files.autoSaveDelay": 300, // Auto-save delay in ms
   // <-------------- Version Control -------------->
   "scm.diffDecorations": "all", // Show all Git diff markers
   // <-------------- Custom UI Styling (extension required) -------------->
