@@ -1,16 +1,15 @@
 {
   // <-------------- UI Appearance & Layout -------------->
-  "workbench.colorTheme": "Default Dark Modern", // Color theme
+  "workbench.colorTheme": "Kamekazi Dark", // Color theme
   "workbench.iconTheme": "material-icon-theme", // File icons
+  "workbench.productIconTheme": "icons-kamekazi-dark", // Product icon (correct id)
   "material-icon-theme.hidesExplorerArrows": true, // Hide folder arrows
   "workbench.activityBar.location": "default", // Hide activity bar
   "workbench.sideBar.location": "right", // Sidebar on right
-  "workbench.statusBar.visible": false, // Hide status bar
+  "workbench.statusBar.visible": true, // Hide status bar
   "workbench.startupEditor": "none", // No startup editor
   "workbench.tips.enabled": false, // Disable tips
   "window.zoomLevel": 1, // UI zoom level
-  "window.customTitleBarVisibility": "never", // Native title bar only
-  "window.titleBarStyle": "native", // Native title bar style
   // <-------------- Explorer Settings -------------->
   "explorer.compactFolders": false, // No compact folders
   "explorer.confirmDragAndDrop": true, // Confirm drag & drop
@@ -18,7 +17,7 @@
   "explorer.decorations.badges": true, // Show explorer badges
   "git.decorations.enabled": true, // Show Git decorations
   // <-------------- Editor Behavior -------------->
-  "workbench.editor.showTabs": "single", // Show single tab only
+  "workbench.editor.showTabs": "multiple", // Show multiple tabs
   "editor.minimap.enabled": false, // Disable minimap
   "breadcrumbs.enabled": true, // Disable breadcrumbs
   "editor.stickyScroll.enabled": false, // Disable sticky headers
@@ -72,9 +71,17 @@
   },
   "workbench.colorCustomizations": {
     "editorCursor.background": "#000000",
-    "[Aura Dracula Spirit (Soft)]": {
-      "editorSuggestWidget.selectedBackground": "#3A334B",
-      "sideBar.background": "#191521"
+    "[GitHub Purple]": {
+      "editorSuggestWidget.selectedBackground": "#3F2B5D",
+      "editorSuggestWidget.selectedForeground": "#FFFFFF",
+      "sideBar.background": "#1B1026",
+      "sideBar.foreground": "#E6E1FF"
+    },
+    "[Kamekazi Dark]": {
+      "editorSuggestWidget.selectedBackground": "#2B2432",
+      "editorSuggestWidget.selectedForeground": "#FFFFFF",
+      "sideBar.background": "#111014",
+      "sideBar.foreground": "#DAD6E6"
     }
   },
   // <-------------- File Handling & Auto Save -------------->
